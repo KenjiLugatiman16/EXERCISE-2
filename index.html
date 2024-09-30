@@ -27,8 +27,8 @@
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
-            border-radius: 10px; /* Matching border radius */
-            box-sizing: border-box; /* Ensures padding is included in width */
+            border-radius: 10px; 
+            box-sizing: border-box; 
         }
 
         button {
@@ -37,7 +37,7 @@
             background-color: lightseagreen;
             color: white;
             border: none;
-            border-radius: 10px; /* Matching border radius */
+            border-radius: 10px;
             cursor: pointer;
         }
 
@@ -59,14 +59,14 @@
 
     <script>
         function login(event) {
-            event.preventDefault(); // Prevent the default form submission
+            event.preventDefault();
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
 
-            // Simple validation (you can enhance this)
+          
             if (username && password) {
                 alert("Logging in... (functionality not implemented yet!)");
-                // Here you can implement the actual login logic (e.g., API call)
+     
             } else {
                 alert("Please fill in both fields.");
             }
